@@ -1,4 +1,4 @@
-﻿namespace StudentRegistrationSystemAPI
+namespace StudentRegistrationSystemAPI
 {
     public class StudentRegistration
     {
@@ -9,6 +9,8 @@
         public string Email { get; set; } = string.Empty;
         public string DOB { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
+        public string NIC { get; set; } = string.Empty;
 
-    }
+
+  }
 }
